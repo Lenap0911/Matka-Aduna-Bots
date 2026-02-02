@@ -1,0 +1,2558 @@
+year,profession,sex,count
+0,child,F,61
+0,child,M,56
+0,child,X,7
+0,civil servant,F,21
+0,civil servant,M,20
+0,civil servant,X,2
+0,craftsman,F,19
+0,craftsman,M,25
+0,craftsman,X,4
+0,farmer,F,32
+0,farmer,M,41
+0,fisher,F,26
+0,fisher,M,25
+0,fisher,X,2
+0,homemaker,F,36
+0,homemaker,M,35
+0,homemaker,X,3
+0,service provider,F,16
+0,service provider,M,22
+0,service provider,X,3
+0,unemployed,F,23
+0,unemployed,M,20
+0,unemployed,X,1
+1,child,F,56
+1,child,M,58
+1,child,X,7
+1,civil servant,F,20
+1,civil servant,M,19
+1,civil servant,X,2
+1,craftsman,F,20
+1,craftsman,M,24
+1,craftsman,X,3
+1,farmer,F,34
+1,farmer,M,41
+1,fisher,F,24
+1,fisher,M,24
+1,fisher,X,2
+1,homemaker,F,38
+1,homemaker,M,36
+1,homemaker,X,3
+1,retired,F,3
+1,retired,M,5
+1,retired,X,1
+1,service provider,F,16
+1,service provider,M,21
+1,service provider,X,3
+1,unemployed,F,25
+1,unemployed,M,20
+1,unemployed,X,1
+2,child,F,55
+2,child,M,56
+2,child,X,7
+2,civil servant,F,21
+2,civil servant,M,19
+2,civil servant,X,2
+2,craftsman,F,20
+2,craftsman,M,26
+2,craftsman,X,3
+2,farmer,F,35
+2,farmer,M,40
+2,fisher,F,23
+2,fisher,M,23
+2,fisher,X,2
+2,homemaker,F,37
+2,homemaker,M,34
+2,homemaker,X,3
+2,retired,F,7
+2,retired,M,11
+2,retired,X,1
+2,service provider,F,16
+2,service provider,M,21
+2,service provider,X,3
+2,unemployed,F,24
+2,unemployed,M,20
+2,unemployed,X,1
+3,child,F,54
+3,child,M,52
+3,child,X,7
+3,civil servant,F,21
+3,civil servant,M,19
+3,civil servant,X,2
+3,craftsman,F,19
+3,craftsman,M,27
+3,craftsman,X,3
+3,farmer,F,36
+3,farmer,M,41
+3,fisher,F,24
+3,fisher,M,21
+3,fisher,X,2
+3,homemaker,F,36
+3,homemaker,M,33
+3,homemaker,X,3
+3,retired,F,10
+3,retired,M,17
+3,retired,X,1
+3,service provider,F,16
+3,service provider,M,22
+3,service provider,X,3
+3,unemployed,F,24
+3,unemployed,M,19
+3,unemployed,X,1
+4,child,F,50
+4,child,M,53
+4,child,X,6
+4,civil servant,F,21
+4,civil servant,M,19
+4,civil servant,X,2
+4,craftsman,F,20
+4,craftsman,M,25
+4,craftsman,X,3
+4,farmer,F,38
+4,farmer,M,37
+4,fisher,F,23
+4,fisher,M,20
+4,fisher,X,2
+4,homemaker,F,35
+4,homemaker,M,33
+4,homemaker,X,4
+4,retired,F,13
+4,retired,M,26
+4,retired,X,1
+4,service provider,F,16
+4,service provider,M,22
+4,service provider,X,3
+4,unemployed,F,24
+4,unemployed,M,18
+4,unemployed,X,1
+5,child,F,51
+5,child,M,50
+5,child,X,6
+5,civil servant,F,22
+5,civil servant,M,18
+5,civil servant,X,2
+5,craftsman,F,20
+5,craftsman,M,24
+5,craftsman,X,3
+5,farmer,F,38
+5,farmer,M,37
+5,fisher,F,23
+5,fisher,M,21
+5,fisher,X,2
+5,homemaker,F,33
+5,homemaker,M,35
+5,homemaker,X,4
+5,retired,F,14
+5,retired,M,24
+5,retired,X,1
+5,service provider,F,16
+5,service provider,M,22
+5,service provider,X,3
+5,unemployed,F,24
+5,unemployed,M,19
+5,unemployed,X,1
+6,child,F,52
+6,child,M,45
+6,child,X,6
+6,civil servant,F,22
+6,civil servant,M,20
+6,civil servant,X,2
+6,craftsman,F,20
+6,craftsman,M,25
+6,craftsman,X,2
+6,farmer,F,37
+6,farmer,M,38
+6,fisher,F,22
+6,fisher,M,21
+6,fisher,X,2
+6,homemaker,F,33
+6,homemaker,M,32
+6,homemaker,X,4
+6,retired,F,18
+6,retired,M,26
+6,retired,X,2
+6,service provider,F,16
+6,service provider,M,22
+6,service provider,X,3
+6,unemployed,F,23
+6,unemployed,M,20
+6,unemployed,X,1
+7,child,F,51
+7,child,M,43
+7,child,X,5
+7,civil servant,F,21
+7,civil servant,M,20
+7,civil servant,X,2
+7,craftsman,F,20
+7,craftsman,M,25
+7,craftsman,X,2
+7,farmer,F,36
+7,farmer,M,39
+7,fisher,F,23
+7,fisher,M,20
+7,fisher,X,2
+7,homemaker,F,33
+7,homemaker,M,33
+7,homemaker,X,6
+7,retired,F,18
+7,retired,M,26
+7,retired,X,2
+7,service provider,F,17
+7,service provider,M,22
+7,service provider,X,3
+7,unemployed,F,23
+7,unemployed,M,20
+7,unemployed,X,1
+8,child,F,46
+8,child,M,44
+8,child,X,5
+8,civil servant,F,22
+8,civil servant,M,21
+8,civil servant,X,2
+8,craftsman,F,20
+8,craftsman,M,25
+8,craftsman,X,2
+8,farmer,F,37
+8,farmer,M,39
+8,fisher,F,24
+8,fisher,M,20
+8,fisher,X,2
+8,homemaker,F,32
+8,homemaker,M,32
+8,homemaker,X,6
+8,retired,F,20
+8,retired,M,28
+8,retired,X,1
+8,service provider,F,18
+8,service provider,M,20
+8,service provider,X,3
+8,unemployed,F,24
+8,unemployed,M,20
+8,unemployed,X,1
+9,child,F,46
+9,child,M,41
+9,child,X,5
+9,civil servant,F,23
+9,civil servant,M,21
+9,civil servant,X,1
+9,craftsman,F,19
+9,craftsman,M,25
+9,craftsman,X,2
+9,farmer,F,36
+9,farmer,M,39
+9,fisher,F,24
+9,fisher,M,21
+9,fisher,X,2
+9,homemaker,F,31
+9,homemaker,M,32
+9,homemaker,X,6
+9,retired,F,22
+9,retired,M,27
+9,retired,X,2
+9,service provider,F,19
+9,service provider,M,20
+9,service provider,X,3
+9,unemployed,F,24
+9,unemployed,M,20
+9,unemployed,X,1
+10,child,F,44
+10,child,M,42
+10,child,X,4
+10,civil servant,F,22
+10,civil servant,M,20
+10,civil servant,X,1
+10,craftsman,F,19
+10,craftsman,M,24
+10,craftsman,X,2
+10,farmer,F,36
+10,farmer,M,38
+10,farmer,X,1
+10,fisher,F,25
+10,fisher,M,21
+10,fisher,X,2
+10,homemaker,F,30
+10,homemaker,M,33
+10,homemaker,X,6
+10,retired,F,26
+10,retired,M,30
+10,retired,X,2
+10,service provider,F,18
+10,service provider,M,20
+10,service provider,X,3
+10,unemployed,F,24
+10,unemployed,M,18
+10,unemployed,X,1
+11,child,F,39
+11,child,M,41
+11,child,X,4
+11,civil servant,F,23
+11,civil servant,M,20
+11,civil servant,X,1
+11,craftsman,F,22
+11,craftsman,M,24
+11,craftsman,X,2
+11,farmer,F,36
+11,farmer,M,39
+11,farmer,X,1
+11,fisher,F,25
+11,fisher,M,21
+11,fisher,X,2
+11,homemaker,F,32
+11,homemaker,M,34
+11,homemaker,X,6
+11,retired,F,30
+11,retired,M,27
+11,retired,X,2
+11,service provider,F,16
+11,service provider,M,20
+11,service provider,X,3
+11,unemployed,F,22
+11,unemployed,M,18
+11,unemployed,X,1
+12,child,F,40
+12,child,M,36
+12,child,X,4
+12,civil servant,F,23
+12,civil servant,M,22
+12,civil servant,X,1
+12,craftsman,F,23
+12,craftsman,M,25
+12,craftsman,X,2
+12,farmer,F,34
+12,farmer,M,40
+12,farmer,X,1
+12,fisher,F,25
+12,fisher,M,22
+12,fisher,X,2
+12,homemaker,F,30
+12,homemaker,M,33
+12,homemaker,X,6
+12,retired,F,35
+12,retired,M,29
+12,retired,X,2
+12,service provider,F,14
+12,service provider,M,20
+12,service provider,X,3
+12,unemployed,F,21
+12,unemployed,M,16
+12,unemployed,X,1
+13,child,F,37
+13,child,M,38
+13,child,X,3
+13,civil servant,F,22
+13,civil servant,M,23
+13,civil servant,X,1
+13,craftsman,F,24
+13,craftsman,M,25
+13,craftsman,X,3
+13,farmer,F,36
+13,farmer,M,39
+13,farmer,X,1
+13,fisher,F,26
+13,fisher,M,23
+13,fisher,X,2
+13,homemaker,F,30
+13,homemaker,M,32
+13,homemaker,X,6
+13,retired,F,34
+13,retired,M,28
+13,retired,X,1
+13,service provider,F,16
+13,service provider,M,21
+13,service provider,X,3
+13,unemployed,F,18
+13,unemployed,M,13
+13,unemployed,X,2
+14,child,F,38
+14,child,M,37
+14,child,X,3
+14,civil servant,F,22
+14,civil servant,M,23
+14,civil servant,X,1
+14,craftsman,F,25
+14,craftsman,M,25
+14,craftsman,X,3
+14,farmer,F,36
+14,farmer,M,39
+14,farmer,X,1
+14,fisher,F,27
+14,fisher,M,24
+14,fisher,X,2
+14,homemaker,F,29
+14,homemaker,M,30
+14,homemaker,X,6
+14,retired,F,37
+14,retired,M,28
+14,service provider,F,16
+14,service provider,M,21
+14,service provider,X,3
+14,unemployed,F,15
+14,unemployed,M,13
+14,unemployed,X,2
+15,child,F,41
+15,child,M,37
+15,child,X,4
+15,civil servant,F,22
+15,civil servant,M,22
+15,civil servant,X,1
+15,craftsman,F,25
+15,craftsman,M,26
+15,craftsman,X,3
+15,farmer,F,36
+15,farmer,M,40
+15,farmer,X,2
+15,fisher,F,28
+15,fisher,M,23
+15,fisher,X,2
+15,homemaker,F,29
+15,homemaker,M,29
+15,homemaker,X,6
+15,retired,F,32
+15,retired,M,26
+15,service provider,F,16
+15,service provider,M,21
+15,service provider,X,3
+15,unemployed,F,15
+15,unemployed,M,13
+15,unemployed,X,1
+16,child,F,42
+16,child,M,37
+16,child,X,5
+16,civil servant,F,22
+16,civil servant,M,21
+16,civil servant,X,1
+16,craftsman,F,24
+16,craftsman,M,27
+16,craftsman,X,3
+16,farmer,F,36
+16,farmer,M,39
+16,farmer,X,2
+16,fisher,F,28
+16,fisher,M,24
+16,fisher,X,2
+16,homemaker,F,30
+16,homemaker,M,28
+16,homemaker,X,6
+16,retired,F,26
+16,retired,M,30
+16,retired,X,1
+16,service provider,F,15
+16,service provider,M,20
+16,service provider,X,2
+16,unemployed,F,16
+16,unemployed,M,13
+16,unemployed,X,1
+17,child,F,42
+17,child,M,38
+17,child,X,5
+17,civil servant,F,23
+17,civil servant,M,20
+17,civil servant,X,1
+17,craftsman,F,23
+17,craftsman,M,28
+17,craftsman,X,3
+17,farmer,F,33
+17,farmer,M,38
+17,farmer,X,2
+17,fisher,F,28
+17,fisher,M,23
+17,fisher,X,1
+17,homemaker,F,31
+17,homemaker,M,28
+17,homemaker,X,6
+17,retired,F,29
+17,retired,M,30
+17,retired,X,2
+17,service provider,F,15
+17,service provider,M,20
+17,service provider,X,2
+17,unemployed,F,15
+17,unemployed,M,14
+17,unemployed,X,1
+18,child,F,45
+18,child,M,40
+18,child,X,4
+18,civil servant,F,23
+18,civil servant,M,20
+18,civil servant,X,1
+18,craftsman,F,23
+18,craftsman,M,28
+18,craftsman,X,3
+18,farmer,F,33
+18,farmer,M,38
+18,farmer,X,2
+18,fisher,F,28
+18,fisher,M,25
+18,fisher,X,1
+18,homemaker,F,30
+18,homemaker,M,28
+18,homemaker,X,7
+18,retired,F,28
+18,retired,M,26
+18,retired,X,2
+18,service provider,F,14
+18,service provider,M,19
+18,service provider,X,2
+18,unemployed,F,15
+18,unemployed,M,14
+18,unemployed,X,1
+19,child,F,47
+19,child,M,40
+19,child,X,4
+19,civil servant,F,21
+19,civil servant,M,21
+19,civil servant,X,1
+19,craftsman,F,23
+19,craftsman,M,29
+19,craftsman,X,3
+19,farmer,F,34
+19,farmer,M,38
+19,farmer,X,2
+19,fisher,F,27
+19,fisher,M,25
+19,fisher,X,1
+19,homemaker,F,31
+19,homemaker,M,28
+19,homemaker,X,7
+19,retired,F,29
+19,retired,M,24
+19,retired,X,2
+19,service provider,F,14
+19,service provider,M,20
+19,service provider,X,2
+19,unemployed,F,13
+19,unemployed,M,14
+19,unemployed,X,1
+20,child,F,47
+20,child,M,44
+20,child,X,4
+20,civil servant,F,21
+20,civil servant,M,20
+20,civil servant,X,1
+20,craftsman,F,23
+20,craftsman,M,29
+20,craftsman,X,3
+20,farmer,F,32
+20,farmer,M,35
+20,farmer,X,2
+20,fisher,F,28
+20,fisher,M,24
+20,fisher,X,1
+20,homemaker,F,29
+20,homemaker,M,28
+20,homemaker,X,6
+20,retired,F,32
+20,retired,M,26
+20,retired,X,4
+20,service provider,F,14
+20,service provider,M,20
+20,service provider,X,1
+20,unemployed,F,13
+20,unemployed,M,14
+20,unemployed,X,1
+21,child,F,47
+21,child,M,49
+21,child,X,4
+21,civil servant,F,20
+21,civil servant,M,18
+21,civil servant,X,1
+21,craftsman,F,25
+21,craftsman,M,27
+21,craftsman,X,4
+21,farmer,F,32
+21,farmer,M,36
+21,farmer,X,2
+21,fisher,F,29
+21,fisher,M,23
+21,fisher,X,2
+21,homemaker,F,27
+21,homemaker,M,25
+21,homemaker,X,4
+21,retired,F,31
+21,retired,M,29
+21,retired,X,4
+21,service provider,F,14
+21,service provider,M,21
+21,service provider,X,1
+21,unemployed,F,13
+21,unemployed,M,14
+21,unemployed,X,1
+22,child,F,49
+22,child,M,53
+22,child,X,4
+22,civil servant,F,18
+22,civil servant,M,18
+22,civil servant,X,1
+22,craftsman,F,25
+22,craftsman,M,26
+22,craftsman,X,4
+22,farmer,F,32
+22,farmer,M,35
+22,farmer,X,2
+22,fisher,F,29
+22,fisher,M,24
+22,fisher,X,2
+22,homemaker,F,27
+22,homemaker,M,24
+22,homemaker,X,4
+22,retired,F,29
+22,retired,M,30
+22,retired,X,4
+22,service provider,F,14
+22,service provider,M,22
+22,service provider,X,1
+22,unemployed,F,11
+22,unemployed,M,14
+22,unemployed,X,1
+23,child,F,49
+23,child,M,57
+23,child,X,4
+23,civil servant,F,17
+23,civil servant,M,18
+23,civil servant,X,1
+23,craftsman,F,24
+23,craftsman,M,25
+23,craftsman,X,3
+23,farmer,F,31
+23,farmer,M,32
+23,farmer,X,2
+23,fisher,F,28
+23,fisher,M,24
+23,fisher,X,2
+23,homemaker,F,28
+23,homemaker,M,24
+23,homemaker,X,4
+23,retired,F,30
+23,retired,M,33
+23,retired,X,6
+23,service provider,F,14
+23,service provider,M,22
+23,service provider,X,1
+23,unemployed,F,11
+23,unemployed,M,14
+24,child,F,49
+24,child,M,61
+24,child,X,5
+24,civil servant,F,16
+24,civil servant,M,18
+24,civil servant,X,1
+24,craftsman,F,23
+24,craftsman,M,24
+24,craftsman,X,3
+24,farmer,F,32
+24,farmer,M,30
+24,farmer,X,2
+24,fisher,F,28
+24,fisher,M,24
+24,fisher,X,2
+24,homemaker,F,28
+24,homemaker,M,23
+24,homemaker,X,4
+24,retired,F,28
+24,retired,M,35
+24,retired,X,5
+24,service provider,F,14
+24,service provider,M,22
+24,service provider,X,1
+24,unemployed,F,11
+24,unemployed,M,14
+25,child,F,51
+25,child,M,64
+25,child,X,4
+25,civil servant,F,15
+25,civil servant,M,18
+25,civil servant,X,1
+25,craftsman,F,22
+25,craftsman,M,23
+25,craftsman,X,4
+25,farmer,F,33
+25,farmer,M,29
+25,farmer,X,2
+25,fisher,F,28
+25,fisher,M,23
+25,fisher,X,2
+25,homemaker,F,26
+25,homemaker,M,23
+25,homemaker,X,4
+25,retired,F,31
+25,retired,M,34
+25,retired,X,5
+25,service provider,F,14
+25,service provider,M,22
+25,service provider,X,1
+25,unemployed,F,11
+25,unemployed,M,13
+26,child,F,53
+26,child,M,67
+26,child,X,4
+26,civil servant,F,16
+26,civil servant,M,18
+26,civil servant,X,1
+26,craftsman,F,22
+26,craftsman,M,24
+26,craftsman,X,4
+26,farmer,F,33
+26,farmer,M,29
+26,farmer,X,2
+26,fisher,F,28
+26,fisher,M,23
+26,fisher,X,2
+26,homemaker,F,26
+26,homemaker,M,23
+26,homemaker,X,4
+26,retired,F,26
+26,retired,M,29
+26,retired,X,5
+26,service provider,F,14
+26,service provider,M,22
+26,service provider,X,1
+26,unemployed,F,11
+26,unemployed,M,14
+27,child,F,52
+27,child,M,73
+27,child,X,4
+27,civil servant,F,16
+27,civil servant,M,18
+27,civil servant,X,1
+27,craftsman,F,23
+27,craftsman,M,24
+27,craftsman,X,4
+27,farmer,F,34
+27,farmer,M,29
+27,farmer,X,2
+27,fisher,F,29
+27,fisher,M,23
+27,fisher,X,2
+27,homemaker,F,26
+27,homemaker,M,23
+27,homemaker,X,4
+27,retired,F,21
+27,retired,M,23
+27,retired,X,5
+27,service provider,F,14
+27,service provider,M,23
+27,service provider,X,1
+27,unemployed,F,11
+27,unemployed,M,14
+28,child,F,53
+28,child,M,75
+28,child,X,5
+28,civil servant,F,16
+28,civil servant,M,18
+28,civil servant,X,1
+28,craftsman,F,23
+28,craftsman,M,24
+28,craftsman,X,4
+28,farmer,F,35
+28,farmer,M,30
+28,farmer,X,2
+28,fisher,F,30
+28,fisher,M,23
+28,fisher,X,2
+28,homemaker,F,26
+28,homemaker,M,24
+28,homemaker,X,4
+28,retired,F,19
+28,retired,M,21
+28,retired,X,5
+28,service provider,F,14
+28,service provider,M,23
+28,service provider,X,1
+28,unemployed,F,11
+28,unemployed,M,14
+29,child,F,54
+29,child,M,79
+29,child,X,5
+29,civil servant,F,16
+29,civil servant,M,18
+29,civil servant,X,1
+29,craftsman,F,23
+29,craftsman,M,24
+29,craftsman,X,4
+29,farmer,F,35
+29,farmer,M,30
+29,farmer,X,2
+29,fisher,F,31
+29,fisher,M,23
+29,fisher,X,2
+29,homemaker,F,25
+29,homemaker,M,25
+29,homemaker,X,4
+29,retired,F,14
+29,retired,M,17
+29,retired,X,4
+29,service provider,F,15
+29,service provider,M,23
+29,service provider,X,1
+29,unemployed,F,12
+29,unemployed,M,14
+30,child,F,57
+30,child,M,82
+30,child,X,5
+30,civil servant,F,16
+30,civil servant,M,18
+30,civil servant,X,1
+30,craftsman,F,22
+30,craftsman,M,24
+30,craftsman,X,4
+30,farmer,F,36
+30,farmer,M,30
+30,farmer,X,2
+30,fisher,F,31
+30,fisher,M,23
+30,fisher,X,2
+30,homemaker,F,25
+30,homemaker,M,26
+30,homemaker,X,4
+30,retired,F,11
+30,retired,M,10
+30,retired,X,2
+30,service provider,F,15
+30,service provider,M,23
+30,service provider,X,1
+30,unemployed,F,12
+30,unemployed,M,15
+31,child,F,60
+31,child,M,83
+31,child,X,4
+31,civil servant,F,16
+31,civil servant,M,17
+31,civil servant,X,1
+31,craftsman,F,20
+31,craftsman,M,25
+31,craftsman,X,4
+31,farmer,F,36
+31,farmer,M,29
+31,farmer,X,2
+31,fisher,F,31
+31,fisher,M,23
+31,fisher,X,3
+31,homemaker,F,25
+31,homemaker,M,26
+31,homemaker,X,4
+31,retired,F,10
+31,retired,M,12
+31,retired,X,2
+31,service provider,F,15
+31,service provider,M,24
+31,service provider,X,1
+31,unemployed,F,12
+31,unemployed,M,15
+32,child,F,62
+32,child,M,83
+32,child,X,4
+32,civil servant,F,15
+32,civil servant,M,17
+32,civil servant,X,1
+32,craftsman,F,20
+32,craftsman,M,26
+32,craftsman,X,4
+32,farmer,F,36
+32,farmer,M,30
+32,farmer,X,2
+32,fisher,F,32
+32,fisher,M,22
+32,fisher,X,3
+32,homemaker,F,25
+32,homemaker,M,27
+32,homemaker,X,4
+32,retired,F,12
+32,retired,M,11
+32,retired,X,2
+32,service provider,F,16
+32,service provider,M,24
+32,service provider,X,1
+32,unemployed,F,8
+32,unemployed,M,15
+33,child,F,64
+33,child,M,84
+33,child,X,3
+33,civil servant,F,13
+33,civil servant,M,18
+33,civil servant,X,1
+33,craftsman,F,20
+33,craftsman,M,27
+33,craftsman,X,4
+33,farmer,F,36
+33,farmer,M,30
+33,farmer,X,2
+33,fisher,F,33
+33,fisher,M,21
+33,fisher,X,3
+33,homemaker,F,26
+33,homemaker,M,27
+33,homemaker,X,5
+33,retired,F,8
+33,retired,M,10
+33,retired,X,2
+33,service provider,F,16
+33,service provider,M,23
+33,service provider,X,1
+33,unemployed,F,8
+33,unemployed,M,13
+34,child,F,64
+34,child,M,83
+34,child,X,4
+34,civil servant,F,13
+34,civil servant,M,18
+34,civil servant,X,1
+34,craftsman,F,22
+34,craftsman,M,27
+34,craftsman,X,4
+34,farmer,F,34
+34,farmer,M,28
+34,farmer,X,2
+34,fisher,F,34
+34,fisher,M,21
+34,fisher,X,3
+34,homemaker,F,26
+34,homemaker,M,28
+34,homemaker,X,6
+34,retired,F,10
+34,retired,M,11
+34,retired,X,1
+34,service provider,F,16
+34,service provider,M,24
+34,service provider,X,1
+34,unemployed,F,9
+34,unemployed,M,11
+35,child,F,66
+35,child,M,81
+35,child,X,4
+35,civil servant,F,15
+35,civil servant,M,17
+35,civil servant,X,1
+35,craftsman,F,22
+35,craftsman,M,27
+35,craftsman,X,4
+35,farmer,F,33
+35,farmer,M,29
+35,farmer,X,2
+35,fisher,F,35
+35,fisher,M,21
+35,fisher,X,3
+35,homemaker,F,25
+35,homemaker,M,28
+35,homemaker,X,6
+35,retired,F,9
+35,retired,M,12
+35,retired,X,1
+35,service provider,F,16
+35,service provider,M,25
+35,service provider,X,1
+35,unemployed,F,8
+35,unemployed,M,10
+36,child,F,66
+36,child,M,81
+36,child,X,4
+36,civil servant,F,15
+36,civil servant,M,17
+36,civil servant,X,1
+36,craftsman,F,22
+36,craftsman,M,29
+36,craftsman,X,4
+36,farmer,F,34
+36,farmer,M,27
+36,farmer,X,2
+36,fisher,F,35
+36,fisher,M,20
+36,fisher,X,3
+36,homemaker,F,25
+36,homemaker,M,28
+36,homemaker,X,6
+36,retired,F,10
+36,retired,M,12
+36,retired,X,1
+36,service provider,F,16
+36,service provider,M,25
+36,service provider,X,1
+36,unemployed,F,6
+36,unemployed,M,10
+37,child,F,66
+37,child,M,81
+37,child,X,4
+37,civil servant,F,14
+37,civil servant,M,17
+37,civil servant,X,1
+37,craftsman,F,23
+37,craftsman,M,28
+37,craftsman,X,4
+37,farmer,F,35
+37,farmer,M,27
+37,farmer,X,2
+37,fisher,F,35
+37,fisher,M,21
+37,fisher,X,3
+37,homemaker,F,25
+37,homemaker,M,29
+37,homemaker,X,6
+37,retired,F,9
+37,retired,M,11
+37,retired,X,1
+37,service provider,F,17
+37,service provider,M,26
+37,service provider,X,1
+37,unemployed,F,6
+37,unemployed,M,10
+38,child,F,70
+38,child,M,77
+38,child,X,5
+38,civil servant,F,14
+38,civil servant,M,17
+38,civil servant,X,1
+38,craftsman,F,24
+38,craftsman,M,27
+38,craftsman,X,4
+38,farmer,F,33
+38,farmer,M,26
+38,farmer,X,2
+38,fisher,F,34
+38,fisher,M,21
+38,fisher,X,3
+38,homemaker,F,24
+38,homemaker,M,32
+38,homemaker,X,6
+38,retired,F,12
+38,retired,M,9
+38,service provider,F,16
+38,service provider,M,27
+38,service provider,X,1
+38,unemployed,F,6
+38,unemployed,M,10
+39,child,F,74
+39,child,M,74
+39,child,X,5
+39,civil servant,F,13
+39,civil servant,M,14
+39,craftsman,F,22
+39,craftsman,M,23
+39,craftsman,X,3
+39,farmer,F,28
+39,farmer,M,23
+39,farmer,X,2
+39,fisher,F,30
+39,fisher,M,16
+39,fisher,X,3
+39,homemaker,F,23
+39,homemaker,M,31
+39,homemaker,X,5
+39,retired,F,25
+39,retired,M,30
+39,retired,X,4
+39,service provider,F,14
+39,service provider,M,24
+39,unemployed,F,5
+39,unemployed,M,9
+40,child,F,78
+40,child,M,71
+40,child,X,5
+40,civil servant,F,13
+40,civil servant,M,13
+40,craftsman,F,22
+40,craftsman,M,23
+40,craftsman,X,3
+40,farmer,F,29
+40,farmer,M,22
+40,farmer,X,2
+40,fisher,F,30
+40,fisher,M,19
+40,fisher,X,2
+40,homemaker,F,23
+40,homemaker,M,33
+40,homemaker,X,5
+40,retired,F,19
+40,retired,M,31
+40,retired,X,5
+40,service provider,F,15
+40,service provider,M,24
+40,unemployed,F,5
+40,unemployed,M,9
+41,child,F,81
+41,child,M,71
+41,child,X,5
+41,civil servant,F,14
+41,civil servant,M,13
+41,craftsman,F,22
+41,craftsman,M,23
+41,craftsman,X,2
+41,farmer,F,28
+41,farmer,M,19
+41,farmer,X,2
+41,fisher,F,30
+41,fisher,M,20
+41,fisher,X,2
+41,homemaker,F,23
+41,homemaker,M,34
+41,homemaker,X,5
+41,retired,F,14
+41,retired,M,32
+41,retired,X,4
+41,service provider,F,15
+41,service provider,M,24
+41,unemployed,F,5
+41,unemployed,M,10
+42,child,F,85
+42,child,M,70
+42,child,X,4
+42,civil servant,F,14
+42,civil servant,M,15
+42,craftsman,F,21
+42,craftsman,M,23
+42,craftsman,X,2
+42,farmer,F,29
+42,farmer,M,21
+42,farmer,X,2
+42,fisher,F,31
+42,fisher,M,22
+42,fisher,X,2
+42,homemaker,F,23
+42,homemaker,M,32
+42,homemaker,X,5
+42,retired,F,14
+42,retired,M,23
+42,retired,X,3
+42,service provider,F,15
+42,service provider,M,24
+42,unemployed,F,5
+42,unemployed,M,10
+42,unemployed,X,1
+43,child,F,83
+43,child,M,73
+43,child,X,4
+43,civil servant,F,15
+43,civil servant,M,14
+43,craftsman,F,23
+43,craftsman,M,23
+43,craftsman,X,2
+43,farmer,F,28
+43,farmer,M,22
+43,farmer,X,2
+43,fisher,F,28
+43,fisher,M,24
+43,fisher,X,2
+43,homemaker,F,20
+43,homemaker,M,31
+43,homemaker,X,5
+43,retired,F,20
+43,retired,M,24
+43,retired,X,3
+43,service provider,F,15
+43,service provider,M,22
+43,unemployed,F,6
+43,unemployed,M,11
+43,unemployed,X,1
+44,child,F,84
+44,child,M,71
+44,child,X,4
+44,civil servant,F,16
+44,civil servant,M,14
+44,craftsman,F,21
+44,craftsman,M,26
+44,craftsman,X,2
+44,farmer,F,28
+44,farmer,M,26
+44,farmer,X,2
+44,fisher,F,27
+44,fisher,M,26
+44,fisher,X,2
+44,homemaker,F,20
+44,homemaker,M,26
+44,homemaker,X,5
+44,retired,F,23
+44,retired,M,22
+44,retired,X,2
+44,service provider,F,16
+44,service provider,M,21
+44,unemployed,F,6
+44,unemployed,M,12
+44,unemployed,X,1
+45,child,F,85
+45,child,M,68
+45,child,X,4
+45,civil servant,F,16
+45,civil servant,M,15
+45,craftsman,F,22
+45,craftsman,M,24
+45,craftsman,X,2
+45,farmer,F,28
+45,farmer,M,27
+45,farmer,X,2
+45,fisher,F,27
+45,fisher,M,25
+45,fisher,X,2
+45,homemaker,F,21
+45,homemaker,M,27
+45,homemaker,X,5
+45,retired,F,22
+45,retired,M,24
+45,retired,X,1
+45,service provider,F,16
+45,service provider,M,21
+45,unemployed,F,6
+45,unemployed,M,13
+45,unemployed,X,1
+46,child,F,84
+46,child,M,70
+46,child,X,3
+46,civil servant,F,15
+46,civil servant,M,16
+46,craftsman,F,23
+46,craftsman,M,25
+46,craftsman,X,3
+46,farmer,F,27
+46,farmer,M,27
+46,farmer,X,2
+46,fisher,F,27
+46,fisher,M,23
+46,fisher,X,2
+46,homemaker,F,20
+46,homemaker,M,26
+46,homemaker,X,5
+46,retired,F,18
+46,retired,M,27
+46,retired,X,1
+46,service provider,F,17
+46,service provider,M,21
+46,unemployed,F,6
+46,unemployed,M,12
+46,unemployed,X,1
+47,child,F,86
+47,child,M,67
+47,child,X,3
+47,civil servant,F,15
+47,civil servant,M,16
+47,craftsman,F,23
+47,craftsman,M,24
+47,craftsman,X,3
+47,farmer,F,27
+47,farmer,M,29
+47,farmer,X,2
+47,fisher,F,26
+47,fisher,M,24
+47,fisher,X,2
+47,homemaker,F,22
+47,homemaker,M,26
+47,homemaker,X,5
+47,retired,F,17
+47,retired,M,27
+47,retired,X,1
+47,service provider,F,17
+47,service provider,M,21
+47,unemployed,F,6
+47,unemployed,M,12
+47,unemployed,X,1
+48,child,F,85
+48,child,M,65
+48,child,X,4
+48,civil servant,F,16
+48,civil servant,M,16
+48,craftsman,F,22
+48,craftsman,M,24
+48,craftsman,X,3
+48,farmer,F,27
+48,farmer,M,31
+48,farmer,X,2
+48,fisher,F,26
+48,fisher,M,24
+48,fisher,X,2
+48,homemaker,F,20
+48,homemaker,M,26
+48,homemaker,X,5
+48,retired,F,23
+48,retired,M,22
+48,retired,X,1
+48,service provider,F,16
+48,service provider,M,22
+48,unemployed,F,7
+48,unemployed,M,12
+48,unemployed,X,1
+49,child,F,84
+49,child,M,63
+49,child,X,5
+49,civil servant,F,15
+49,civil servant,M,17
+49,craftsman,F,21
+49,craftsman,M,23
+49,craftsman,X,3
+49,farmer,F,26
+49,farmer,M,32
+49,farmer,X,2
+49,fisher,F,27
+49,fisher,M,24
+49,fisher,X,2
+49,homemaker,F,23
+49,homemaker,M,28
+49,homemaker,X,5
+49,retired,F,22
+49,retired,M,24
+49,retired,X,1
+49,service provider,F,16
+49,service provider,M,20
+49,unemployed,F,7
+49,unemployed,M,12
+49,unemployed,X,1
+50,child,F,84
+50,child,M,62
+50,child,X,6
+50,civil servant,F,15
+50,civil servant,M,16
+50,craftsman,F,22
+50,craftsman,M,22
+50,craftsman,X,3
+50,farmer,F,25
+50,farmer,M,30
+50,farmer,X,2
+50,fisher,F,26
+50,fisher,M,25
+50,fisher,X,2
+50,homemaker,F,25
+50,homemaker,M,30
+50,homemaker,X,5
+50,retired,F,21
+50,retired,M,25
+50,retired,X,1
+50,service provider,F,17
+50,service provider,M,19
+50,unemployed,F,7
+50,unemployed,M,12
+50,unemployed,X,1
+51,child,F,80
+51,child,M,64
+51,child,X,6
+51,civil servant,F,16
+51,civil servant,M,16
+51,craftsman,F,22
+51,craftsman,M,22
+51,craftsman,X,3
+51,farmer,F,25
+51,farmer,M,31
+51,farmer,X,2
+51,fisher,F,27
+51,fisher,M,26
+51,fisher,X,2
+51,homemaker,F,26
+51,homemaker,M,29
+51,homemaker,X,4
+51,retired,F,19
+51,retired,M,23
+51,retired,X,2
+51,service provider,F,17
+51,service provider,M,19
+51,unemployed,F,7
+51,unemployed,M,13
+51,unemployed,X,1
+52,child,F,82
+52,child,M,64
+52,child,X,4
+52,civil servant,F,15
+52,civil servant,M,16
+52,craftsman,F,23
+52,craftsman,M,24
+52,craftsman,X,4
+52,farmer,F,25
+52,farmer,M,31
+52,farmer,X,2
+52,fisher,F,31
+52,fisher,M,25
+52,fisher,X,2
+52,homemaker,F,26
+52,homemaker,M,29
+52,homemaker,X,4
+52,retired,F,18
+52,retired,M,20
+52,retired,X,1
+52,service provider,F,17
+52,service provider,M,19
+52,service provider,X,1
+52,unemployed,F,7
+52,unemployed,M,10
+52,unemployed,X,1
+53,child,F,82
+53,child,M,65
+53,child,X,4
+53,civil servant,F,16
+53,civil servant,M,14
+53,craftsman,F,24
+53,craftsman,M,25
+53,craftsman,X,4
+53,farmer,F,25
+53,farmer,M,30
+53,farmer,X,2
+53,fisher,F,31
+53,fisher,M,26
+53,fisher,X,2
+53,homemaker,F,26
+53,homemaker,M,30
+53,homemaker,X,4
+53,retired,F,14
+53,retired,M,22
+53,retired,X,1
+53,service provider,F,19
+53,service provider,M,18
+53,service provider,X,1
+53,unemployed,F,7
+53,unemployed,M,8
+53,unemployed,X,1
+54,child,F,81
+54,child,M,65
+54,child,X,4
+54,civil servant,F,16
+54,civil servant,M,13
+54,craftsman,F,25
+54,craftsman,M,26
+54,craftsman,X,4
+54,farmer,F,25
+54,farmer,M,31
+54,farmer,X,2
+54,fisher,F,31
+54,fisher,M,26
+54,fisher,X,1
+54,homemaker,F,27
+54,homemaker,M,30
+54,homemaker,X,3
+54,retired,F,14
+54,retired,M,20
+54,retired,X,3
+54,service provider,F,18
+54,service provider,M,19
+54,service provider,X,1
+54,unemployed,F,8
+54,unemployed,M,8
+54,unemployed,X,1
+55,child,F,79
+55,child,M,66
+55,child,X,4
+55,civil servant,F,14
+55,civil servant,M,13
+55,craftsman,F,26
+55,craftsman,M,28
+55,craftsman,X,4
+55,farmer,F,25
+55,farmer,M,31
+55,farmer,X,2
+55,fisher,F,31
+55,fisher,M,29
+55,fisher,X,1
+55,homemaker,F,28
+55,homemaker,M,30
+55,homemaker,X,3
+55,retired,F,17
+55,retired,M,20
+55,retired,X,3
+55,service provider,F,17
+55,service provider,M,19
+55,service provider,X,1
+55,unemployed,F,7
+55,unemployed,M,6
+55,unemployed,X,1
+56,child,F,76
+56,child,M,67
+56,child,X,4
+56,civil servant,F,14
+56,civil servant,M,13
+56,craftsman,F,28
+56,craftsman,M,29
+56,craftsman,X,4
+56,farmer,F,27
+56,farmer,M,29
+56,farmer,X,2
+56,fisher,F,31
+56,fisher,M,28
+56,fisher,X,2
+56,homemaker,F,29
+56,homemaker,M,31
+56,homemaker,X,3
+56,retired,F,17
+56,retired,M,20
+56,retired,X,3
+56,service provider,F,16
+56,service provider,M,18
+56,service provider,X,1
+56,unemployed,F,6
+56,unemployed,M,6
+56,unemployed,X,1
+57,child,F,74
+57,child,M,67
+57,child,X,4
+57,civil servant,F,13
+57,civil servant,M,11
+57,craftsman,F,21
+57,craftsman,M,26
+57,craftsman,X,3
+57,farmer,F,23
+57,farmer,M,25
+57,fisher,F,30
+57,fisher,M,27
+57,fisher,X,2
+57,homemaker,F,28
+57,homemaker,M,26
+57,homemaker,X,3
+57,retired,F,34
+57,retired,M,35
+57,retired,X,6
+57,service provider,F,14
+57,service provider,M,18
+57,service provider,X,1
+57,unemployed,F,7
+57,unemployed,M,6
+57,unemployed,X,1
+58,child,F,71
+58,child,M,68
+58,child,X,4
+58,civil servant,F,13
+58,civil servant,M,11
+58,craftsman,F,20
+58,craftsman,M,25
+58,craftsman,X,3
+58,farmer,F,26
+58,farmer,M,25
+58,fisher,F,31
+58,fisher,M,27
+58,fisher,X,2
+58,homemaker,F,28
+58,homemaker,M,26
+58,homemaker,X,3
+58,retired,F,36
+58,retired,M,34
+58,retired,X,5
+58,service provider,F,14
+58,service provider,M,18
+58,service provider,X,1
+58,unemployed,F,6
+58,unemployed,M,7
+58,unemployed,X,1
+59,child,F,70
+59,child,M,66
+59,child,X,4
+59,civil servant,F,12
+59,civil servant,M,11
+59,craftsman,F,20
+59,craftsman,M,24
+59,craftsman,X,3
+59,farmer,F,26
+59,farmer,M,26
+59,fisher,F,32
+59,fisher,M,27
+59,fisher,X,2
+59,homemaker,F,27
+59,homemaker,M,27
+59,homemaker,X,3
+59,retired,F,36
+59,retired,M,34
+59,retired,X,3
+59,service provider,F,16
+59,service provider,M,18
+59,service provider,X,1
+59,unemployed,F,7
+59,unemployed,M,7
+59,unemployed,X,1
+60,child,F,67
+60,child,M,66
+60,child,X,4
+60,civil servant,F,12
+60,civil servant,M,11
+60,craftsman,F,21
+60,craftsman,M,24
+60,craftsman,X,3
+60,farmer,F,27
+60,farmer,M,28
+60,fisher,F,30
+60,fisher,M,26
+60,fisher,X,2
+60,homemaker,F,30
+60,homemaker,M,27
+60,homemaker,X,2
+60,retired,F,37
+60,retired,M,32
+60,retired,X,4
+60,service provider,F,16
+60,service provider,M,19
+60,service provider,X,1
+60,unemployed,F,8
+60,unemployed,M,7
+60,unemployed,X,1
+61,child,F,68
+61,child,M,63
+61,child,X,4
+61,civil servant,F,12
+61,civil servant,M,11
+61,craftsman,F,22
+61,craftsman,M,23
+61,craftsman,X,3
+61,farmer,F,26
+61,farmer,M,28
+61,fisher,F,31
+61,fisher,M,27
+61,fisher,X,2
+61,homemaker,F,29
+61,homemaker,M,29
+61,homemaker,X,2
+61,retired,F,37
+61,retired,M,35
+61,retired,X,4
+61,service provider,F,16
+61,service provider,M,18
+61,service provider,X,1
+61,unemployed,F,8
+61,unemployed,M,8
+61,unemployed,X,1
+62,child,F,65
+62,child,M,65
+62,child,X,4
+62,civil servant,F,12
+62,civil servant,M,11
+62,craftsman,F,23
+62,craftsman,M,24
+62,craftsman,X,3
+62,farmer,F,26
+62,farmer,M,28
+62,fisher,F,31
+62,fisher,M,27
+62,fisher,X,2
+62,homemaker,F,30
+62,homemaker,M,29
+62,homemaker,X,2
+62,retired,F,34
+62,retired,M,35
+62,retired,X,3
+62,service provider,F,16
+62,service provider,M,18
+62,service provider,X,1
+62,unemployed,F,8
+62,unemployed,M,8
+62,unemployed,X,1
+63,child,F,64
+63,child,M,64
+63,child,X,4
+63,civil servant,F,12
+63,civil servant,M,12
+63,craftsman,F,22
+63,craftsman,M,24
+63,craftsman,X,3
+63,farmer,F,26
+63,farmer,M,28
+63,fisher,F,33
+63,fisher,M,27
+63,fisher,X,2
+63,homemaker,F,30
+63,homemaker,M,32
+63,homemaker,X,2
+63,retired,F,35
+63,retired,M,35
+63,retired,X,3
+63,service provider,F,16
+63,service provider,M,17
+63,service provider,X,1
+63,unemployed,F,8
+63,unemployed,M,8
+63,unemployed,X,1
+64,child,F,66
+64,child,M,58
+64,child,X,5
+64,civil servant,F,12
+64,civil servant,M,13
+64,craftsman,F,23
+64,craftsman,M,24
+64,craftsman,X,3
+64,farmer,F,27
+64,farmer,M,30
+64,fisher,F,33
+64,fisher,M,27
+64,fisher,X,2
+64,homemaker,F,30
+64,homemaker,M,32
+64,homemaker,X,2
+64,retired,F,33
+64,retired,M,33
+64,retired,X,3
+64,service provider,F,16
+64,service provider,M,18
+64,service provider,X,1
+64,unemployed,F,8
+64,unemployed,M,8
+64,unemployed,X,1
+65,child,F,61
+65,child,M,60
+65,child,X,6
+65,civil servant,F,11
+65,civil servant,M,13
+65,craftsman,F,23
+65,craftsman,M,24
+65,craftsman,X,3
+65,farmer,F,29
+65,farmer,M,29
+65,fisher,F,35
+65,fisher,M,28
+65,fisher,X,2
+65,homemaker,F,31
+65,homemaker,M,32
+65,homemaker,X,2
+65,retired,F,31
+65,retired,M,31
+65,retired,X,1
+65,service provider,F,15
+65,service provider,M,19
+65,service provider,X,1
+65,unemployed,F,9
+65,unemployed,M,8
+65,unemployed,X,1
+66,child,F,57
+66,child,M,63
+66,child,X,5
+66,civil servant,F,11
+66,civil servant,M,13
+66,craftsman,F,25
+66,craftsman,M,24
+66,craftsman,X,3
+66,farmer,F,27
+66,farmer,M,31
+66,fisher,F,36
+66,fisher,M,28
+66,fisher,X,2
+66,homemaker,F,30
+66,homemaker,M,32
+66,homemaker,X,3
+66,retired,F,32
+66,retired,M,27
+66,retired,X,1
+66,service provider,F,17
+66,service provider,M,19
+66,service provider,X,1
+66,unemployed,F,9
+66,unemployed,M,8
+66,unemployed,X,1
+67,child,F,56
+67,child,M,64
+67,child,X,4
+67,civil servant,F,12
+67,civil servant,M,13
+67,craftsman,F,26
+67,craftsman,M,25
+67,craftsman,X,2
+67,farmer,F,27
+67,farmer,M,34
+67,fisher,F,38
+67,fisher,M,29
+67,fisher,X,3
+67,homemaker,F,27
+67,homemaker,M,30
+67,homemaker,X,3
+67,retired,F,32
+67,retired,M,26
+67,retired,X,2
+67,service provider,F,17
+67,service provider,M,19
+67,service provider,X,1
+67,unemployed,F,9
+67,unemployed,M,8
+67,unemployed,X,1
+68,child,F,54
+68,child,M,65
+68,child,X,3
+68,civil servant,F,11
+68,civil servant,M,13
+68,craftsman,F,26
+68,craftsman,M,23
+68,craftsman,X,2
+68,farmer,F,29
+68,farmer,M,34
+68,fisher,F,39
+68,fisher,M,30
+68,fisher,X,4
+68,homemaker,F,28
+68,homemaker,M,30
+68,homemaker,X,3
+68,retired,F,27
+68,retired,M,26
+68,retired,X,2
+68,service provider,F,18
+68,service provider,M,19
+68,service provider,X,1
+68,unemployed,F,9
+68,unemployed,M,9
+68,unemployed,X,1
+69,child,F,56
+69,child,M,61
+69,child,X,3
+69,civil servant,F,12
+69,civil servant,M,15
+69,craftsman,F,26
+69,craftsman,M,23
+69,craftsman,X,2
+69,farmer,F,29
+69,farmer,M,35
+69,fisher,F,38
+69,fisher,M,30
+69,fisher,X,4
+69,homemaker,F,28
+69,homemaker,M,30
+69,homemaker,X,3
+69,retired,F,27
+69,retired,M,24
+69,retired,X,1
+69,service provider,F,18
+69,service provider,M,18
+69,service provider,X,1
+69,unemployed,F,9
+69,unemployed,M,11
+69,unemployed,X,1
+70,child,F,51
+70,child,M,64
+70,child,X,3
+70,civil servant,F,12
+70,civil servant,M,16
+70,craftsman,F,26
+70,craftsman,M,23
+70,craftsman,X,2
+70,farmer,F,29
+70,farmer,M,33
+70,fisher,F,37
+70,fisher,M,31
+70,fisher,X,4
+70,homemaker,F,29
+70,homemaker,M,30
+70,homemaker,X,3
+70,retired,F,24
+70,retired,M,23
+70,retired,X,1
+70,service provider,F,20
+70,service provider,M,18
+70,service provider,X,1
+70,unemployed,F,12
+70,unemployed,M,11
+70,unemployed,X,1
+71,child,F,48
+71,child,M,64
+71,child,X,4
+71,civil servant,F,12
+71,civil servant,M,16
+71,craftsman,F,27
+71,craftsman,M,23
+71,craftsman,X,2
+71,farmer,F,30
+71,farmer,M,35
+71,fisher,F,37
+71,fisher,M,32
+71,fisher,X,4
+71,homemaker,F,30
+71,homemaker,M,31
+71,homemaker,X,3
+71,retired,F,21
+71,retired,M,20
+71,retired,X,1
+71,service provider,F,21
+71,service provider,M,18
+71,service provider,X,1
+71,unemployed,F,13
+71,unemployed,M,11
+71,unemployed,X,1
+72,child,F,48
+72,child,M,62
+72,child,X,4
+72,civil servant,F,13
+72,civil servant,M,16
+72,craftsman,F,27
+72,craftsman,M,23
+72,craftsman,X,2
+72,farmer,F,33
+72,farmer,M,36
+72,fisher,F,37
+72,fisher,M,35
+72,fisher,X,4
+72,homemaker,F,30
+72,homemaker,M,31
+72,homemaker,X,3
+72,retired,F,18
+72,retired,M,20
+72,retired,X,1
+72,service provider,F,21
+72,service provider,M,18
+72,service provider,X,1
+72,unemployed,F,13
+72,unemployed,M,11
+72,unemployed,X,1
+73,child,F,49
+73,child,M,60
+73,child,X,4
+73,civil servant,F,15
+73,civil servant,M,17
+73,craftsman,F,27
+73,craftsman,M,23
+73,craftsman,X,2
+73,farmer,F,34
+73,farmer,M,36
+73,fisher,F,38
+73,fisher,M,37
+73,fisher,X,4
+73,homemaker,F,30
+73,homemaker,M,32
+73,homemaker,X,3
+73,retired,F,16
+73,retired,M,16
+73,retired,X,1
+73,service provider,F,22
+73,service provider,M,18
+73,service provider,X,1
+73,unemployed,F,10
+73,unemployed,M,12
+73,unemployed,X,1
+74,child,F,51
+74,child,M,57
+74,child,X,3
+74,civil servant,F,15
+74,civil servant,M,17
+74,craftsman,F,27
+74,craftsman,M,23
+74,craftsman,X,2
+74,farmer,F,34
+74,farmer,M,39
+74,fisher,F,39
+74,fisher,M,38
+74,fisher,X,4
+74,homemaker,F,30
+74,homemaker,M,33
+74,homemaker,X,4
+74,retired,F,15
+74,retired,M,13
+74,retired,X,1
+74,service provider,F,22
+74,service provider,M,19
+74,service provider,X,1
+74,unemployed,F,12
+74,unemployed,M,9
+74,unemployed,X,1
+75,child,F,49
+75,child,M,56
+75,child,X,3
+75,civil servant,F,16
+75,civil servant,M,17
+75,craftsman,F,28
+75,craftsman,M,25
+75,craftsman,X,2
+75,farmer,F,34
+75,farmer,M,41
+75,fisher,F,40
+75,fisher,M,38
+75,fisher,X,5
+75,homemaker,F,31
+75,homemaker,M,33
+75,homemaker,X,4
+75,retired,F,14
+75,retired,M,11
+75,retired,X,1
+75,service provider,F,23
+75,service provider,M,20
+75,service provider,X,1
+75,unemployed,F,11
+75,unemployed,M,7
+76,child,F,48
+76,child,M,54
+76,child,X,3
+76,civil servant,F,16
+76,civil servant,M,17
+76,craftsman,F,28
+76,craftsman,M,27
+76,craftsman,X,2
+76,farmer,F,35
+76,farmer,M,42
+76,fisher,F,40
+76,fisher,M,39
+76,fisher,X,5
+76,homemaker,F,32
+76,homemaker,M,33
+76,homemaker,X,4
+76,retired,F,16
+76,retired,M,12
+76,service provider,F,23
+76,service provider,M,20
+76,service provider,X,1
+76,unemployed,F,9
+76,unemployed,M,6
+77,child,F,46
+77,child,M,52
+77,child,X,3
+77,civil servant,F,16
+77,civil servant,M,17
+77,craftsman,F,28
+77,craftsman,M,26
+77,craftsman,X,2
+77,farmer,F,35
+77,farmer,M,42
+77,fisher,F,40
+77,fisher,M,40
+77,fisher,X,5
+77,homemaker,F,32
+77,homemaker,M,34
+77,homemaker,X,4
+77,retired,F,18
+77,retired,M,14
+77,service provider,F,24
+77,service provider,M,20
+77,service provider,X,1
+77,unemployed,F,10
+77,unemployed,M,6
+78,child,F,44
+78,child,M,50
+78,child,X,3
+78,civil servant,F,16
+78,civil servant,M,17
+78,craftsman,F,29
+78,craftsman,M,26
+78,craftsman,X,2
+78,farmer,F,36
+78,farmer,M,42
+78,fisher,F,39
+78,fisher,M,40
+78,fisher,X,4
+78,homemaker,F,32
+78,homemaker,M,35
+78,homemaker,X,4
+78,retired,F,16
+78,retired,M,16
+78,retired,X,1
+78,service provider,F,24
+78,service provider,M,18
+78,service provider,X,1
+78,unemployed,F,11
+78,unemployed,M,7
+79,child,F,43
+79,child,M,48
+79,child,X,3
+79,civil servant,F,16
+79,civil servant,M,17
+79,craftsman,F,29
+79,craftsman,M,26
+79,craftsman,X,2
+79,farmer,F,36
+79,farmer,M,42
+79,fisher,F,39
+79,fisher,M,40
+79,fisher,X,4
+79,homemaker,F,33
+79,homemaker,M,34
+79,homemaker,X,4
+79,retired,F,18
+79,retired,M,17
+79,retired,X,1
+79,service provider,F,23
+79,service provider,M,18
+79,service provider,X,1
+79,unemployed,F,11
+79,unemployed,M,8
+80,child,F,43
+80,child,M,46
+80,child,X,3
+80,civil servant,F,16
+80,civil servant,M,17
+80,craftsman,F,28
+80,craftsman,M,26
+80,craftsman,X,2
+80,farmer,F,34
+80,farmer,M,42
+80,fisher,F,38
+80,fisher,M,40
+80,fisher,X,4
+80,homemaker,F,33
+80,homemaker,M,35
+80,homemaker,X,3
+80,retired,F,20
+80,retired,M,15
+80,retired,X,2
+80,service provider,F,22
+80,service provider,M,18
+80,service provider,X,1
+80,unemployed,F,12
+80,unemployed,M,10
+81,child,F,44
+81,child,M,44
+81,child,X,3
+81,civil servant,F,16
+81,civil servant,M,17
+81,craftsman,F,26
+81,craftsman,M,26
+81,craftsman,X,2
+81,farmer,F,34
+81,farmer,M,41
+81,fisher,F,35
+81,fisher,M,40
+81,fisher,X,4
+81,homemaker,F,34
+81,homemaker,M,35
+81,homemaker,X,2
+81,retired,F,22
+81,retired,M,17
+81,retired,X,3
+81,service provider,F,22
+81,service provider,M,18
+81,service provider,X,1
+81,unemployed,F,13
+81,unemployed,M,11
+82,child,F,44
+82,child,M,46
+82,child,X,2
+82,civil servant,F,15
+82,civil servant,M,16
+82,craftsman,F,26
+82,craftsman,M,26
+82,craftsman,X,2
+82,farmer,F,37
+82,farmer,M,39
+82,fisher,F,34
+82,fisher,M,39
+82,fisher,X,4
+82,homemaker,F,34
+82,homemaker,M,35
+82,homemaker,X,2
+82,retired,F,21
+82,retired,M,18
+82,retired,X,3
+82,service provider,F,23
+82,service provider,M,17
+82,service provider,X,2
+82,unemployed,F,12
+82,unemployed,M,11
+83,child,F,45
+83,child,M,46
+83,child,X,1
+83,civil servant,F,14
+83,civil servant,M,16
+83,craftsman,F,24
+83,craftsman,M,26
+83,craftsman,X,3
+83,farmer,F,36
+83,farmer,M,39
+83,fisher,F,34
+83,fisher,M,39
+83,fisher,X,4
+83,homemaker,F,34
+83,homemaker,M,35
+83,homemaker,X,2
+83,retired,F,23
+83,retired,M,19
+83,retired,X,3
+83,service provider,F,23
+83,service provider,M,17
+83,service provider,X,2
+83,unemployed,F,12
+83,unemployed,M,11
+84,child,F,49
+84,child,M,41
+84,child,X,2
+84,civil servant,F,14
+84,civil servant,M,16
+84,craftsman,F,23
+84,craftsman,M,28
+84,craftsman,X,3
+84,farmer,F,35
+84,farmer,M,39
+84,fisher,F,34
+84,fisher,M,40
+84,fisher,X,4
+84,homemaker,F,34
+84,homemaker,M,35
+84,homemaker,X,2
+84,retired,F,23
+84,retired,M,20
+84,retired,X,1
+84,service provider,F,21
+84,service provider,M,16
+84,service provider,X,2
+84,unemployed,F,12
+84,unemployed,M,11
+85,child,F,51
+85,child,M,39
+85,child,X,2
+85,civil servant,F,14
+85,civil servant,M,17
+85,craftsman,F,22
+85,craftsman,M,27
+85,craftsman,X,3
+85,farmer,F,36
+85,farmer,M,39
+85,fisher,F,35
+85,fisher,M,42
+85,fisher,X,4
+85,homemaker,F,33
+85,homemaker,M,32
+85,homemaker,X,2
+85,retired,F,23
+85,retired,M,25
+85,retired,X,1
+85,service provider,F,21
+85,service provider,M,15
+85,service provider,X,2
+85,unemployed,F,12
+85,unemployed,M,11
+86,child,F,51
+86,child,M,38
+86,child,X,2
+86,civil servant,F,15
+86,civil servant,M,17
+86,craftsman,F,23
+86,craftsman,M,26
+86,craftsman,X,3
+86,farmer,F,36
+86,farmer,M,38
+86,fisher,F,35
+86,fisher,M,43
+86,fisher,X,4
+86,homemaker,F,31
+86,homemaker,M,31
+86,homemaker,X,2
+86,retired,F,21
+86,retired,M,31
+86,retired,X,1
+86,service provider,F,22
+86,service provider,M,14
+86,service provider,X,2
+86,unemployed,F,12
+86,unemployed,M,11
+87,child,F,49
+87,child,M,39
+87,child,X,3
+87,civil servant,F,15
+87,civil servant,M,17
+87,craftsman,F,24
+87,craftsman,M,26
+87,craftsman,X,3
+87,farmer,F,35
+87,farmer,M,38
+87,fisher,F,35
+87,fisher,M,40
+87,fisher,X,4
+87,homemaker,F,32
+87,homemaker,M,30
+87,homemaker,X,2
+87,retired,F,20
+87,retired,M,33
+87,retired,X,1
+87,service provider,F,21
+87,service provider,M,13
+87,service provider,X,2
+87,unemployed,F,15
+87,unemployed,M,11
+88,child,F,48
+88,child,M,39
+88,child,X,3
+88,civil servant,F,14
+88,civil servant,M,18
+88,craftsman,F,24
+88,craftsman,M,27
+88,craftsman,X,3
+88,farmer,F,36
+88,farmer,M,36
+88,fisher,F,35
+88,fisher,M,39
+88,fisher,X,4
+88,homemaker,F,31
+88,homemaker,M,31
+88,homemaker,X,2
+88,retired,F,19
+88,retired,M,32
+88,retired,X,1
+88,service provider,F,22
+88,service provider,M,13
+88,service provider,X,2
+88,unemployed,F,15
+88,unemployed,M,11
+89,child,F,51
+89,child,M,36
+89,child,X,2
+89,civil servant,F,14
+89,civil servant,M,17
+89,civil servant,X,1
+89,craftsman,F,24
+89,craftsman,M,26
+89,craftsman,X,2
+89,farmer,F,35
+89,farmer,M,36
+89,fisher,F,34
+89,fisher,M,40
+89,fisher,X,4
+89,homemaker,F,32
+89,homemaker,M,30
+89,homemaker,X,2
+89,retired,F,17
+89,retired,M,36
+89,retired,X,2
+89,service provider,F,22
+89,service provider,M,14
+89,service provider,X,2
+89,unemployed,F,16
+89,unemployed,M,11
+90,child,F,49
+90,child,M,37
+90,child,X,2
+90,civil servant,F,13
+90,civil servant,M,17
+90,civil servant,X,1
+90,craftsman,F,23
+90,craftsman,M,26
+90,craftsman,X,2
+90,farmer,F,37
+90,farmer,M,37
+90,fisher,F,33
+90,fisher,M,38
+90,fisher,X,4
+90,homemaker,F,32
+90,homemaker,M,30
+90,homemaker,X,2
+90,retired,F,21
+90,retired,M,36
+90,retired,X,2
+90,service provider,F,22
+90,service provider,M,14
+90,service provider,X,2
+90,unemployed,F,17
+90,unemployed,M,11
+91,child,F,50
+91,child,M,37
+91,child,X,2
+91,civil servant,F,13
+91,civil servant,M,17
+91,civil servant,X,1
+91,craftsman,F,23
+91,craftsman,M,27
+91,craftsman,X,2
+91,farmer,F,38
+91,farmer,M,36
+91,fisher,F,34
+91,fisher,M,36
+91,fisher,X,4
+91,homemaker,F,31
+91,homemaker,M,30
+91,homemaker,X,2
+91,retired,F,21
+91,retired,M,32
+91,retired,X,2
+91,service provider,F,21
+91,service provider,M,15
+91,service provider,X,2
+91,unemployed,F,17
+91,unemployed,M,10
+92,child,F,49
+92,child,M,40
+92,child,X,2
+92,civil servant,F,13
+92,civil servant,M,16
+92,civil servant,X,1
+92,craftsman,F,22
+92,craftsman,M,27
+92,craftsman,X,2
+92,farmer,F,38
+92,farmer,M,34
+92,fisher,F,37
+92,fisher,M,36
+92,fisher,X,4
+92,homemaker,F,31
+92,homemaker,M,28
+92,homemaker,X,2
+92,retired,F,20
+92,retired,M,38
+92,retired,X,1
+92,service provider,F,21
+92,service provider,M,14
+92,service provider,X,2
+92,unemployed,F,18
+92,unemployed,M,9
+93,child,F,50
+93,child,M,44
+93,child,X,2
+93,civil servant,F,13
+93,civil servant,M,15
+93,civil servant,X,1
+93,craftsman,F,23
+93,craftsman,M,27
+93,craftsman,X,1
+93,farmer,F,38
+93,farmer,M,34
+93,fisher,F,37
+93,fisher,M,36
+93,fisher,X,4
+93,homemaker,F,30
+93,homemaker,M,28
+93,homemaker,X,2
+93,retired,F,18
+93,retired,M,33
+93,retired,X,2
+93,service provider,F,20
+93,service provider,M,13
+93,service provider,X,2
+93,unemployed,F,18
+93,unemployed,M,9
+94,child,F,52
+94,child,M,47
+94,child,X,2
+94,civil servant,F,12
+94,civil servant,M,15
+94,civil servant,X,1
+94,craftsman,F,22
+94,craftsman,M,27
+94,craftsman,X,1
+94,farmer,F,40
+94,farmer,M,32
+94,fisher,F,37
+94,fisher,M,37
+94,fisher,X,4
+94,homemaker,F,28
+94,homemaker,M,26
+94,homemaker,X,2
+94,retired,F,18
+94,retired,M,33
+94,retired,X,1
+94,service provider,F,20
+94,service provider,M,13
+94,service provider,X,2
+94,unemployed,F,18
+94,unemployed,M,9
+95,child,F,53
+95,child,M,50
+95,child,X,5
+95,civil servant,F,11
+95,civil servant,M,15
+95,civil servant,X,1
+95,craftsman,F,23
+95,craftsman,M,27
+95,craftsman,X,1
+95,farmer,F,38
+95,farmer,M,30
+95,fisher,F,36
+95,fisher,M,37
+95,fisher,X,4
+95,homemaker,F,28
+95,homemaker,M,25
+95,homemaker,X,2
+95,retired,F,19
+95,retired,M,31
+95,retired,X,1
+95,service provider,F,21
+95,service provider,M,12
+95,service provider,X,2
+95,unemployed,F,17
+95,unemployed,M,9
+96,child,F,55
+96,child,M,52
+96,child,X,6
+96,civil servant,F,11
+96,civil servant,M,14
+96,civil servant,X,1
+96,craftsman,F,23
+96,craftsman,M,26
+96,craftsman,X,1
+96,farmer,F,38
+96,farmer,M,30
+96,fisher,F,35
+96,fisher,M,37
+96,fisher,X,4
+96,homemaker,F,25
+96,homemaker,M,24
+96,homemaker,X,2
+96,retired,F,21
+96,retired,M,33
+96,retired,X,1
+96,service provider,F,21
+96,service provider,M,12
+96,service provider,X,2
+96,unemployed,F,18
+96,unemployed,M,9
+97,child,F,56
+97,child,M,54
+97,child,X,7
+97,civil servant,F,11
+97,civil servant,M,14
+97,civil servant,X,1
+97,craftsman,F,22
+97,craftsman,M,26
+97,craftsman,X,1
+97,farmer,F,37
+97,farmer,M,30
+97,fisher,F,34
+97,fisher,M,36
+97,fisher,X,4
+97,homemaker,F,26
+97,homemaker,M,23
+97,homemaker,X,2
+97,retired,F,25
+97,retired,M,32
+97,retired,X,1
+97,service provider,F,20
+97,service provider,M,12
+97,service provider,X,2
+97,unemployed,F,18
+97,unemployed,M,9
+98,child,F,59
+98,child,M,53
+98,child,X,8
+98,civil servant,F,10
+98,civil servant,M,15
+98,civil servant,X,1
+98,craftsman,F,21
+98,craftsman,M,26
+98,craftsman,X,1
+98,farmer,F,35
+98,farmer,M,29
+98,fisher,F,33
+98,fisher,M,35
+98,fisher,X,4
+98,homemaker,F,25
+98,homemaker,M,24
+98,homemaker,X,2
+98,retired,F,29
+98,retired,M,31
+98,retired,X,1
+98,service provider,F,20
+98,service provider,M,12
+98,service provider,X,2
+98,unemployed,F,18
+98,unemployed,M,9
+99,child,F,60
+99,child,M,55
+99,child,X,8
+99,civil servant,F,10
+99,civil servant,M,15
+99,civil servant,X,1
+99,craftsman,F,20
+99,craftsman,M,25
+99,craftsman,X,1
+99,farmer,F,36
+99,farmer,M,29
+99,fisher,F,29
+99,fisher,M,36
+99,fisher,X,3
+99,homemaker,F,27
+99,homemaker,M,23
+99,homemaker,X,2
+99,retired,F,34
+99,retired,M,28
+99,retired,X,3
+99,service provider,F,20
+99,service provider,M,12
+99,service provider,X,1
+99,unemployed,F,18
+99,unemployed,M,9
+100,child,F,60
+100,child,M,58
+100,child,X,8
+100,civil servant,F,9
+100,civil servant,M,15
+100,civil servant,X,1
+100,craftsman,F,18
+100,craftsman,M,24
+100,craftsman,X,1
+100,farmer,F,37
+100,farmer,M,30
+100,fisher,F,29
+100,fisher,M,35
+100,fisher,X,3
+100,homemaker,F,29
+100,homemaker,M,23
+100,homemaker,X,2
+100,retired,F,32
+100,retired,M,25
+100,retired,X,3
+100,service provider,F,19
+100,service provider,M,12
+100,service provider,X,1
+100,unemployed,F,18
+100,unemployed,M,9

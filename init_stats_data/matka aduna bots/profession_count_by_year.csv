@@ -1,0 +1,909 @@
+year,profession,count
+0,child,124
+0,civil servant,43
+0,craftsman,48
+0,farmer,73
+0,fisher,53
+0,homemaker,74
+0,service provider,41
+0,unemployed,44
+1,child,121
+1,civil servant,41
+1,craftsman,47
+1,farmer,75
+1,fisher,50
+1,homemaker,77
+1,retired,9
+1,service provider,40
+1,unemployed,46
+2,child,118
+2,civil servant,42
+2,craftsman,49
+2,farmer,75
+2,fisher,48
+2,homemaker,74
+2,retired,19
+2,service provider,40
+2,unemployed,45
+3,child,113
+3,civil servant,42
+3,craftsman,49
+3,farmer,77
+3,fisher,47
+3,homemaker,72
+3,retired,28
+3,service provider,41
+3,unemployed,44
+4,child,109
+4,civil servant,42
+4,craftsman,48
+4,farmer,75
+4,fisher,45
+4,homemaker,72
+4,retired,40
+4,service provider,41
+4,unemployed,43
+5,child,107
+5,civil servant,42
+5,craftsman,47
+5,farmer,75
+5,fisher,46
+5,homemaker,72
+5,retired,39
+5,service provider,41
+5,unemployed,44
+6,child,103
+6,civil servant,44
+6,craftsman,47
+6,farmer,75
+6,fisher,45
+6,homemaker,69
+6,retired,46
+6,service provider,41
+6,unemployed,44
+7,child,99
+7,civil servant,43
+7,craftsman,47
+7,farmer,75
+7,fisher,45
+7,homemaker,72
+7,retired,46
+7,service provider,42
+7,unemployed,44
+8,child,95
+8,civil servant,45
+8,craftsman,47
+8,farmer,76
+8,fisher,46
+8,homemaker,70
+8,retired,49
+8,service provider,41
+8,unemployed,45
+9,child,92
+9,civil servant,45
+9,craftsman,46
+9,farmer,75
+9,fisher,47
+9,homemaker,69
+9,retired,51
+9,service provider,42
+9,unemployed,45
+10,child,90
+10,civil servant,43
+10,craftsman,45
+10,farmer,75
+10,fisher,48
+10,homemaker,69
+10,retired,58
+10,service provider,41
+10,unemployed,43
+11,child,84
+11,civil servant,44
+11,craftsman,48
+11,farmer,76
+11,fisher,48
+11,homemaker,72
+11,retired,59
+11,service provider,39
+11,unemployed,41
+12,child,80
+12,civil servant,46
+12,craftsman,50
+12,farmer,75
+12,fisher,49
+12,homemaker,69
+12,retired,66
+12,service provider,37
+12,unemployed,38
+13,child,78
+13,civil servant,46
+13,craftsman,52
+13,farmer,76
+13,fisher,51
+13,homemaker,68
+13,retired,63
+13,service provider,40
+13,unemployed,33
+14,child,78
+14,civil servant,46
+14,craftsman,53
+14,farmer,76
+14,fisher,53
+14,homemaker,65
+14,retired,65
+14,service provider,40
+14,unemployed,30
+15,child,82
+15,civil servant,45
+15,craftsman,54
+15,farmer,78
+15,fisher,53
+15,homemaker,64
+15,retired,58
+15,service provider,40
+15,unemployed,29
+16,child,84
+16,civil servant,44
+16,craftsman,54
+16,farmer,77
+16,fisher,54
+16,homemaker,64
+16,retired,57
+16,service provider,37
+16,unemployed,30
+17,child,85
+17,civil servant,44
+17,craftsman,54
+17,farmer,73
+17,fisher,52
+17,homemaker,65
+17,retired,61
+17,service provider,37
+17,unemployed,30
+18,child,89
+18,civil servant,44
+18,craftsman,54
+18,farmer,73
+18,fisher,54
+18,homemaker,65
+18,retired,56
+18,service provider,35
+18,unemployed,30
+19,child,91
+19,civil servant,43
+19,craftsman,55
+19,farmer,74
+19,fisher,53
+19,homemaker,66
+19,retired,55
+19,service provider,36
+19,unemployed,28
+20,child,95
+20,civil servant,42
+20,craftsman,55
+20,farmer,69
+20,fisher,53
+20,homemaker,63
+20,retired,62
+20,service provider,35
+20,unemployed,28
+21,child,100
+21,civil servant,39
+21,craftsman,56
+21,farmer,70
+21,fisher,54
+21,homemaker,56
+21,retired,64
+21,service provider,36
+21,unemployed,28
+22,child,106
+22,civil servant,37
+22,craftsman,55
+22,farmer,69
+22,fisher,55
+22,homemaker,55
+22,retired,63
+22,service provider,37
+22,unemployed,26
+23,child,110
+23,civil servant,36
+23,craftsman,52
+23,farmer,65
+23,fisher,54
+23,homemaker,56
+23,retired,69
+23,service provider,37
+23,unemployed,25
+24,child,115
+24,civil servant,35
+24,craftsman,50
+24,farmer,64
+24,fisher,54
+24,homemaker,55
+24,retired,68
+24,service provider,37
+24,unemployed,25
+25,child,119
+25,civil servant,34
+25,craftsman,49
+25,farmer,64
+25,fisher,53
+25,homemaker,53
+25,retired,70
+25,service provider,37
+25,unemployed,24
+26,child,124
+26,civil servant,35
+26,craftsman,50
+26,farmer,64
+26,fisher,53
+26,homemaker,53
+26,retired,60
+26,service provider,37
+26,unemployed,25
+27,child,129
+27,civil servant,35
+27,craftsman,51
+27,farmer,65
+27,fisher,54
+27,homemaker,53
+27,retired,49
+27,service provider,38
+27,unemployed,25
+28,child,133
+28,civil servant,35
+28,craftsman,51
+28,farmer,67
+28,fisher,55
+28,homemaker,54
+28,retired,45
+28,service provider,38
+28,unemployed,25
+29,child,138
+29,civil servant,35
+29,craftsman,51
+29,farmer,67
+29,fisher,56
+29,homemaker,54
+29,retired,35
+29,service provider,39
+29,unemployed,26
+30,child,144
+30,civil servant,35
+30,craftsman,50
+30,farmer,68
+30,fisher,56
+30,homemaker,55
+30,retired,23
+30,service provider,39
+30,unemployed,27
+31,child,147
+31,civil servant,34
+31,craftsman,49
+31,farmer,67
+31,fisher,57
+31,homemaker,55
+31,retired,24
+31,service provider,40
+31,unemployed,27
+32,child,149
+32,civil servant,33
+32,craftsman,50
+32,farmer,68
+32,fisher,57
+32,homemaker,56
+32,retired,25
+32,service provider,41
+32,unemployed,23
+33,child,151
+33,civil servant,32
+33,craftsman,51
+33,farmer,68
+33,fisher,57
+33,homemaker,58
+33,retired,20
+33,service provider,40
+33,unemployed,21
+34,child,151
+34,civil servant,32
+34,craftsman,53
+34,farmer,64
+34,fisher,58
+34,homemaker,60
+34,retired,22
+34,service provider,41
+34,unemployed,20
+35,child,151
+35,civil servant,33
+35,craftsman,53
+35,farmer,64
+35,fisher,59
+35,homemaker,59
+35,retired,22
+35,service provider,42
+35,unemployed,18
+36,child,151
+36,civil servant,33
+36,craftsman,55
+36,farmer,63
+36,fisher,58
+36,homemaker,59
+36,retired,23
+36,service provider,42
+36,unemployed,16
+37,child,151
+37,civil servant,32
+37,craftsman,55
+37,farmer,64
+37,fisher,59
+37,homemaker,60
+37,retired,21
+37,service provider,44
+37,unemployed,16
+38,child,152
+38,civil servant,32
+38,craftsman,55
+38,farmer,61
+38,fisher,58
+38,homemaker,62
+38,retired,21
+38,service provider,44
+38,unemployed,16
+39,child,153
+39,civil servant,27
+39,craftsman,48
+39,farmer,53
+39,fisher,49
+39,homemaker,59
+39,retired,59
+39,service provider,38
+39,unemployed,14
+40,child,154
+40,civil servant,26
+40,craftsman,48
+40,farmer,53
+40,fisher,51
+40,homemaker,61
+40,retired,55
+40,service provider,39
+40,unemployed,14
+41,child,157
+41,civil servant,27
+41,craftsman,47
+41,farmer,49
+41,fisher,52
+41,homemaker,62
+41,retired,50
+41,service provider,39
+41,unemployed,15
+42,child,159
+42,civil servant,29
+42,craftsman,46
+42,farmer,52
+42,fisher,55
+42,homemaker,60
+42,retired,40
+42,service provider,39
+42,unemployed,16
+43,child,160
+43,civil servant,29
+43,craftsman,48
+43,farmer,52
+43,fisher,54
+43,homemaker,56
+43,retired,47
+43,service provider,37
+43,unemployed,18
+44,child,159
+44,civil servant,30
+44,craftsman,49
+44,farmer,56
+44,fisher,55
+44,homemaker,51
+44,retired,47
+44,service provider,37
+44,unemployed,19
+45,child,157
+45,civil servant,31
+45,craftsman,48
+45,farmer,57
+45,fisher,54
+45,homemaker,53
+45,retired,47
+45,service provider,37
+45,unemployed,20
+46,child,157
+46,civil servant,31
+46,craftsman,51
+46,farmer,56
+46,fisher,52
+46,homemaker,51
+46,retired,46
+46,service provider,38
+46,unemployed,19
+47,child,156
+47,civil servant,31
+47,craftsman,50
+47,farmer,58
+47,fisher,52
+47,homemaker,53
+47,retired,45
+47,service provider,38
+47,unemployed,19
+48,child,154
+48,civil servant,32
+48,craftsman,49
+48,farmer,60
+48,fisher,52
+48,homemaker,51
+48,retired,46
+48,service provider,38
+48,unemployed,20
+49,child,152
+49,civil servant,32
+49,craftsman,47
+49,farmer,60
+49,fisher,53
+49,homemaker,56
+49,retired,47
+49,service provider,36
+49,unemployed,20
+50,child,152
+50,civil servant,31
+50,craftsman,47
+50,farmer,57
+50,fisher,53
+50,homemaker,60
+50,retired,47
+50,service provider,36
+50,unemployed,20
+51,child,150
+51,civil servant,32
+51,craftsman,47
+51,farmer,58
+51,fisher,55
+51,homemaker,59
+51,retired,44
+51,service provider,36
+51,unemployed,21
+52,child,150
+52,civil servant,31
+52,craftsman,51
+52,farmer,58
+52,fisher,58
+52,homemaker,59
+52,retired,39
+52,service provider,37
+52,unemployed,18
+53,child,151
+53,civil servant,30
+53,craftsman,53
+53,farmer,57
+53,fisher,59
+53,homemaker,60
+53,retired,37
+53,service provider,38
+53,unemployed,16
+54,child,150
+54,civil servant,29
+54,craftsman,55
+54,farmer,58
+54,fisher,58
+54,homemaker,60
+54,retired,37
+54,service provider,38
+54,unemployed,17
+55,child,149
+55,civil servant,27
+55,craftsman,58
+55,farmer,58
+55,fisher,61
+55,homemaker,61
+55,retired,40
+55,service provider,37
+55,unemployed,14
+56,child,147
+56,civil servant,27
+56,craftsman,61
+56,farmer,58
+56,fisher,61
+56,homemaker,63
+56,retired,40
+56,service provider,35
+56,unemployed,13
+57,child,145
+57,civil servant,24
+57,craftsman,50
+57,farmer,48
+57,fisher,59
+57,homemaker,57
+57,retired,75
+57,service provider,33
+57,unemployed,14
+58,child,143
+58,civil servant,24
+58,craftsman,48
+58,farmer,51
+58,fisher,60
+58,homemaker,57
+58,retired,75
+58,service provider,33
+58,unemployed,14
+59,child,140
+59,civil servant,23
+59,craftsman,47
+59,farmer,52
+59,fisher,61
+59,homemaker,57
+59,retired,73
+59,service provider,35
+59,unemployed,15
+60,child,137
+60,civil servant,23
+60,craftsman,48
+60,farmer,55
+60,fisher,58
+60,homemaker,59
+60,retired,73
+60,service provider,36
+60,unemployed,16
+61,child,135
+61,civil servant,23
+61,craftsman,48
+61,farmer,54
+61,fisher,60
+61,homemaker,60
+61,retired,76
+61,service provider,35
+61,unemployed,17
+62,child,134
+62,civil servant,23
+62,craftsman,50
+62,farmer,54
+62,fisher,60
+62,homemaker,61
+62,retired,72
+62,service provider,35
+62,unemployed,17
+63,child,132
+63,civil servant,24
+63,craftsman,49
+63,farmer,54
+63,fisher,62
+63,homemaker,64
+63,retired,73
+63,service provider,34
+63,unemployed,17
+64,child,129
+64,civil servant,25
+64,craftsman,50
+64,farmer,57
+64,fisher,62
+64,homemaker,64
+64,retired,69
+64,service provider,35
+64,unemployed,17
+65,child,127
+65,civil servant,24
+65,craftsman,50
+65,farmer,58
+65,fisher,65
+65,homemaker,65
+65,retired,63
+65,service provider,35
+65,unemployed,18
+66,child,125
+66,civil servant,24
+66,craftsman,52
+66,farmer,58
+66,fisher,66
+66,homemaker,65
+66,retired,60
+66,service provider,37
+66,unemployed,18
+67,child,124
+67,civil servant,25
+67,craftsman,53
+67,farmer,61
+67,fisher,70
+67,homemaker,60
+67,retired,60
+67,service provider,37
+67,unemployed,18
+68,child,122
+68,civil servant,24
+68,craftsman,51
+68,farmer,63
+68,fisher,73
+68,homemaker,61
+68,retired,55
+68,service provider,38
+68,unemployed,19
+69,child,120
+69,civil servant,27
+69,craftsman,51
+69,farmer,64
+69,fisher,72
+69,homemaker,61
+69,retired,52
+69,service provider,37
+69,unemployed,21
+70,child,118
+70,civil servant,28
+70,craftsman,51
+70,farmer,62
+70,fisher,72
+70,homemaker,62
+70,retired,48
+70,service provider,39
+70,unemployed,24
+71,child,116
+71,civil servant,28
+71,craftsman,52
+71,farmer,65
+71,fisher,73
+71,homemaker,64
+71,retired,42
+71,service provider,40
+71,unemployed,25
+72,child,114
+72,civil servant,29
+72,craftsman,52
+72,farmer,69
+72,fisher,76
+72,homemaker,64
+72,retired,39
+72,service provider,40
+72,unemployed,25
+73,child,113
+73,civil servant,32
+73,craftsman,52
+73,farmer,70
+73,fisher,79
+73,homemaker,65
+73,retired,33
+73,service provider,41
+73,unemployed,23
+74,child,111
+74,civil servant,32
+74,craftsman,52
+74,farmer,73
+74,fisher,81
+74,homemaker,67
+74,retired,29
+74,service provider,42
+74,unemployed,22
+75,child,108
+75,civil servant,33
+75,craftsman,55
+75,farmer,75
+75,fisher,83
+75,homemaker,68
+75,retired,26
+75,service provider,44
+75,unemployed,18
+76,child,105
+76,civil servant,33
+76,craftsman,57
+76,farmer,77
+76,fisher,84
+76,homemaker,69
+76,retired,28
+76,service provider,44
+76,unemployed,15
+77,child,101
+77,civil servant,33
+77,craftsman,56
+77,farmer,77
+77,fisher,85
+77,homemaker,70
+77,retired,32
+77,service provider,45
+77,unemployed,16
+78,child,97
+78,civil servant,33
+78,craftsman,57
+78,farmer,78
+78,fisher,83
+78,homemaker,71
+78,retired,33
+78,service provider,43
+78,unemployed,18
+79,child,94
+79,civil servant,33
+79,craftsman,57
+79,farmer,78
+79,fisher,83
+79,homemaker,71
+79,retired,36
+79,service provider,42
+79,unemployed,19
+80,child,92
+80,civil servant,33
+80,craftsman,56
+80,farmer,76
+80,fisher,82
+80,homemaker,71
+80,retired,37
+80,service provider,41
+80,unemployed,22
+81,child,91
+81,civil servant,33
+81,craftsman,54
+81,farmer,75
+81,fisher,79
+81,homemaker,71
+81,retired,42
+81,service provider,41
+81,unemployed,24
+82,child,92
+82,civil servant,31
+82,craftsman,54
+82,farmer,76
+82,fisher,77
+82,homemaker,71
+82,retired,42
+82,service provider,42
+82,unemployed,23
+83,child,92
+83,civil servant,30
+83,craftsman,53
+83,farmer,75
+83,fisher,77
+83,homemaker,71
+83,retired,45
+83,service provider,42
+83,unemployed,23
+84,child,92
+84,civil servant,30
+84,craftsman,54
+84,farmer,74
+84,fisher,78
+84,homemaker,71
+84,retired,44
+84,service provider,39
+84,unemployed,23
+85,child,92
+85,civil servant,31
+85,craftsman,52
+85,farmer,75
+85,fisher,81
+85,homemaker,67
+85,retired,49
+85,service provider,38
+85,unemployed,23
+86,child,91
+86,civil servant,32
+86,craftsman,52
+86,farmer,74
+86,fisher,82
+86,homemaker,64
+86,retired,53
+86,service provider,38
+86,unemployed,23
+87,child,91
+87,civil servant,32
+87,craftsman,53
+87,farmer,73
+87,fisher,79
+87,homemaker,64
+87,retired,54
+87,service provider,36
+87,unemployed,26
+88,child,90
+88,civil servant,32
+88,craftsman,54
+88,farmer,72
+88,fisher,78
+88,homemaker,64
+88,retired,52
+88,service provider,37
+88,unemployed,26
+89,child,89
+89,civil servant,32
+89,craftsman,52
+89,farmer,71
+89,fisher,78
+89,homemaker,64
+89,retired,55
+89,service provider,38
+89,unemployed,27
+90,child,88
+90,civil servant,31
+90,craftsman,51
+90,farmer,74
+90,fisher,75
+90,homemaker,64
+90,retired,59
+90,service provider,38
+90,unemployed,28
+91,child,89
+91,civil servant,31
+91,craftsman,52
+91,farmer,74
+91,fisher,74
+91,homemaker,63
+91,retired,55
+91,service provider,38
+91,unemployed,27
+92,child,91
+92,civil servant,30
+92,craftsman,51
+92,farmer,72
+92,fisher,77
+92,homemaker,61
+92,retired,59
+92,service provider,37
+92,unemployed,27
+93,child,96
+93,civil servant,29
+93,craftsman,51
+93,farmer,72
+93,fisher,77
+93,homemaker,60
+93,retired,53
+93,service provider,35
+93,unemployed,27
+94,child,101
+94,civil servant,28
+94,craftsman,50
+94,farmer,72
+94,fisher,78
+94,homemaker,56
+94,retired,52
+94,service provider,35
+94,unemployed,27
+95,child,108
+95,civil servant,27
+95,craftsman,51
+95,farmer,68
+95,fisher,77
+95,homemaker,55
+95,retired,51
+95,service provider,35
+95,unemployed,26
+96,child,113
+96,civil servant,26
+96,craftsman,50
+96,farmer,68
+96,fisher,76
+96,homemaker,51
+96,retired,55
+96,service provider,35
+96,unemployed,27
+97,child,117
+97,civil servant,26
+97,craftsman,49
+97,farmer,67
+97,fisher,74
+97,homemaker,51
+97,retired,58
+97,service provider,34
+97,unemployed,27
+98,child,120
+98,civil servant,26
+98,craftsman,48
+98,farmer,64
+98,fisher,72
+98,homemaker,51
+98,retired,61
+98,service provider,34
+98,unemployed,27
+99,child,123
+99,civil servant,26
+99,craftsman,46
+99,farmer,65
+99,fisher,68
+99,homemaker,52
+99,retired,65
+99,service provider,33
+99,unemployed,27
+100,child,126
+100,civil servant,25
+100,craftsman,43
+100,farmer,67
+100,fisher,67
+100,homemaker,54
+100,retired,60
+100,service provider,32
+100,unemployed,27
