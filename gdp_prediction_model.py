@@ -30,6 +30,12 @@ class GDPPredictorModel:
         self.models = {}
         self.predictions = {}
         
+        # Qualitative insights based on research (availableresearch.pdf)
+        self.farming_cycle = 7  # Farming decreases every 7 years
+        self.fishing_cycle = 3  # Fishing spikes every 3 years
+        self.farming_decline_year = 101  # Farming declines at years: 94, 101, 108...
+        self.fishing_spike_year = 103   # Fishing spikes at years: 103, 106, 109...
+        
     def prepare_data(self):
         """Prepare data for modeling"""
         self.X = self.df['year'].values.reshape(-1, 1)
@@ -75,6 +81,59 @@ class GDPPredictorModel:
         }
         print(f"✓ Moving Average (window={window}) calculated")
     
+    def calculate_qualitative_adjustments(self, year):
+        """
+        Calculate GDP adjustments based on farming/fishing cycles and weather
+        Based on research from availableresearch.pdf
+        
+        Args:
+            year: The year to calculate adjustments for
+        
+        Returns:
+            adjustment_factor: Multiplier for GDP (1.0 = no change)
+        """
+        adjustments = []
+        notes = []
+        
+        # Farming cycle (decreases every 7 years: 94, 101, 108...)
+        years_from_farming_base = year - self.farming_decline_year
+        if years_from_farming_base % self.farming_cycle == 0 and year >= self.farming_decline_year:
+            # Bad farming year
+            farming_impact = -0.08  # 8% decrease
+            adjustments.append(farming_impact)
+            notes.append(f"Year {year}: Farming decline cycle (-8%)")
+        elif years_from_farming_base < 0 and (year - self.farming_decline_year) % self.farming_cycle == 0:
+            # Handle years before 101
+            farming_impact = -0.08
+            adjustments.append(farming_impact)
+            notes.append(f"Year {year}: Farming decline cycle (-8%)")
+        
+        # Fishing cycle (spikes every 3 years: 103, 106, 109...)
+        years_from_spike_base = year - self.fishing_spike_year
+        if years_from_spike_base % self.fishing_cycle == 0 and year >= self.fishing_spike_year:
+            # Fishing spike year
+            fishing_impact = 0.04  # 4% increase
+            adjustments.append(fishing_impact)
+            notes.append(f"Year {year}: Fishing spike year (+4%)")
+        elif years_from_spike_base % self.fishing_cycle == 2 or (year < self.fishing_spike_year and (self.fishing_spike_year - year) == 2):
+            # Bad fishing year (2 years before or after spike)
+            fishing_impact = -0.05  # 5% decrease
+            adjustments.append(fishing_impact)
+            notes.append(f"Year {year}: Poor fishing season (-5%)")
+        
+        # Weather conditions - Droughts in years 102 and 103
+        if year in [102, 103]:
+            drought_impact = -0.06  # 6% decrease due to drought
+            adjustments.append(drought_impact)
+            notes.append(f"Year {year}: Drought conditions (-6%)")
+        
+        # Calculate total adjustment (compound effects)
+        total_adjustment = 1.0
+        for adj in adjustments:
+            total_adjustment *= (1 + adj)
+        
+        return total_adjustment, notes
+    
     def predict_future(self, years_ahead=5):
         """
         Predict GDP for future years using all trained models
@@ -112,6 +171,32 @@ class GDPPredictorModel:
         pred_columns = [col for col in predictions_df.columns if 'prediction' in col]
         predictions_df['ensemble_prediction'] = predictions_df[pred_columns].mean(axis=1)
         
+        # Apply qualitative adjustments based on research insights
+        print("\n🔬 Applying Qualitative Adjustments (Research-Based):")
+        adjusted_predictions = []
+        all_notes = []
+        
+        for idx, row in predictions_df.iterrows():
+            year = int(row['year'])
+            base_prediction = row['ensemble_prediction']
+            
+            # Get adjustment factor and notes
+            adjustment_factor, notes = self.calculate_qualitative_adjustments(year)
+            
+            # Apply adjustment
+            adjusted_gdp = base_prediction * adjustment_factor
+            adjusted_predictions.append(adjusted_gdp)
+            
+            # Print notes
+            if notes:
+                for note in notes:
+                    print(f"  {note}")
+                    all_notes.append(note)
+        
+        predictions_df['adjusted_prediction'] = adjusted_predictions
+        predictions_df['adjustment_notes'] = ['; '.join(all_notes[i:i+1]) if i < len(all_notes) else '' 
+                                              for i in range(len(predictions_df))]
+        
         self.predictions = predictions_df
         return predictions_df
     
@@ -142,7 +227,12 @@ class GDPPredictorModel:
         
         if not self.predictions.empty:
             ax1.plot(self.predictions['year'], self.predictions['ensemble_prediction'], 
-                    'r--', linewidth=2, marker='o', markersize=8, label='Ensemble Prediction')
+                    'orange', linestyle='--', linewidth=1.5, marker='s', markersize=6, 
+                    label='Base Ensemble', alpha=0.6)
+            
+            if 'adjusted_prediction' in self.predictions.columns:
+                ax1.plot(self.predictions['year'], self.predictions['adjusted_prediction'], 
+                        'r-', linewidth=2.5, marker='o', markersize=8, label='Adjusted Prediction (with cycles/weather)')
             
             if 'linear_prediction' in self.predictions.columns:
                 ax1.plot(self.predictions['year'], self.predictions['linear_prediction'], 
@@ -165,7 +255,12 @@ class GDPPredictorModel:
         
         if not self.predictions.empty:
             ax2.plot(self.predictions['year'], self.predictions['ensemble_prediction'], 
-                    'r--', linewidth=2, marker='o', markersize=8, label='Predictions')
+                    'orange', linestyle='--', linewidth=1.5, marker='s', markersize=6, 
+                    label='Base Ensemble', alpha=0.6)
+            
+            if 'adjusted_prediction' in self.predictions.columns:
+                ax2.plot(self.predictions['year'], self.predictions['adjusted_prediction'], 
+                        'r-', linewidth=2.5, marker='o', markersize=8, label='Adjusted Prediction')
         
         ax2.set_xlabel('Year', fontsize=12)
         ax2.set_ylabel('GDP', fontsize=12)
@@ -195,13 +290,24 @@ class GDPPredictorModel:
         print("\n" + "="*60)
         print("GDP PREDICTIONS SUMMARY")
         print("="*60)
-        print(self.predictions.to_string(index=False))
+        
+        # Display main columns
+        display_cols = ['year', 'ensemble_prediction', 'adjusted_prediction']
+        if all(col in self.predictions.columns for col in display_cols):
+            print(self.predictions[display_cols].to_string(index=False))
+        else:
+            print(self.predictions.to_string(index=False))
         print("="*60)
         
-        # Show recommended prediction (ensemble)
-        print("\n🎯 RECOMMENDED PREDICTIONS (Ensemble Model):")
+        # Show recommended prediction (adjusted ensemble)
+        print("\n🎯 FINAL PREDICTIONS (Adjusted for Cycles & Weather):")
         for _, row in self.predictions.iterrows():
-            print(f"  Year {int(row['year'])}: ${row['ensemble_prediction']:,.2f}")
+            year = int(row['year'])
+            base = row['ensemble_prediction']
+            adjusted = row.get('adjusted_prediction', base)
+            change = ((adjusted - base) / base) * 100
+            
+            print(f"  Year {year}: ${adjusted:,.2f} (base: ${base:,.2f}, {change:+.1f}%)")
 
 
 def main():
